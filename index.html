@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
+    <title>Weather App</title>
+    <script src="./js/main.js" defer></script>
+</head>
+<body>
+    
+    <nav class = "navbar navbar-expand-lg bg-primary">
+        <div class ="container-fluid ">
+            <a class="fs-3 navbar-brand text-light">Weather App</a>
+
+        </div>
+    </nav>
+    <div class="container">
+        <h3 class="text-center fs-1 mt-5">Neil's Daily Weather App</h3>
+        
+        <form id="cityForm">
+            <div class="mt-3">
+                <input type="text" class="fs-3 form-control" name="cityName" placeholder="Search the city">
+            </div>
+            <div class="mt-3 text-center">
+                <input type="submit" value="Submit" class="btn btn-primary mx-auto">
+            </div>
+        </form>
+
+        <ul class=" mt-5 list-group w-50 mx-auto" id="cityInfo">
+            <!-- <li class="list-group-item bg-light"></li>
+            <li class="list-group-item">Current Temp: °F</li>
+            <li class="list-group-item">Feels Like: °F</li>
+            <li class="list-group-item">Current Condition: </li> -->
+        </ul>
+    
+        <footer class="py-3 my-4 fixed-bottom">
+            <p class="text-center text-body-secondary">© 2023 Weather App, Inc</p>
+        </footer>
+    </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
+</html>
